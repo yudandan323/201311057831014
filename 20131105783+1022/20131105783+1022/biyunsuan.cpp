@@ -13,6 +13,7 @@ int main()
 	Mat element=getStructuringElement(MORPH_RECT,Size(10,10));
 	morphologyEx(image,image,MORPH_CLOSE,element);
 	imshow("°æ–ßπ˚Õº°ø±’‘ÀÀ„",image);
+    printf("aaaaayu");
 	waitKey(0);
 	return 0;
 }
