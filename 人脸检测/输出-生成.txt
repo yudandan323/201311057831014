@@ -1,0 +1,21 @@
+﻿1>------ 已启动生成: 项目: 人脸检测, 配置: Debug Win32 ------
+1>生成启动时间为 2015/11/26 10:10:22。
+1>InitializeBuildStatus:
+1>  正在对“Debug\人脸检测.unsuccessfulbuild”执行 Touch 任务。
+1>ClCompile:
+1>  所有输出均为最新。
+1>  所有输出均为最新。
+1>jc.obj : warning LNK4229: 遇到无效的指令“/NODEFAUTLIB:atlthunk.lib”；已忽略
+1>LINK : warning LNK4067: 不明确的入口点；选定“mainCRTStartup”
+1>jc.obj : error LNK2019: 无法解析的外部符号 "public: bool __thiscall videoInput::getPixels(int,unsigned char *,bool,bool)" (?getPixels@videoInput@@QAE_NHPAE_N1@Z)，该符号在函数 _main 中被引用
+1>jc.obj : error LNK2019: 无法解析的外部符号 "public: bool __thiscall videoInput::isFrameNew(int)" (?isFrameNew@videoInput@@QAE_NH@Z)，该符号在函数 _main 中被引用
+1>jc.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall videoInput::~videoInput(void)" (??1videoInput@@QAE@XZ)，该符号在函数 _main 中被引用
+1>jc.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall videoInput::showSettingsWindow(int)" (?showSettingsWindow@videoInput@@QAEXH@Z)，该符号在函数 _main 中被引用
+1>jc.obj : error LNK2019: 无法解析的外部符号 "public: bool __thiscall videoInput::setupDevice(int,int,int)" (?setupDevice@videoInput@@QAE_NHHH@Z)，该符号在函数 _main 中被引用
+1>jc.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall videoInput::videoInput(void)" (??0videoInput@@QAE@XZ)，该符号在函数 _main 中被引用
+1>E:\20131105783于丹丹\人脸检测\Debug\人脸检测.exe : fatal error LNK1120: 6 个无法解析的外部命令
+1>
+1>生成失败。
+1>
+1>已用时间 00:00:00.22
+========== 生成: 成功 0 个，失败 1 个，最新 0 个，跳过 0 个 ==========
